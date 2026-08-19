@@ -1,0 +1,143 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffe5ec;
+    font-family:'Monserrat' sans-serif;
+    font-weight: 300px;
+}
+
+h1,h2,h3,h4,h4,h5,h6{
+    font-weight: 600px;
+    margin: 0 0 15px;
+}
+
+#main{
+    background-image: linear-gradient(#ff0248,#ff6d31);
+    width: 90%;
+    padding: 35px 25px 25px;
+    margin: 25px auto 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+#main h1{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+#main h2{
+    background-color: #ddd;
+    display: inline-block;
+    font-size: 50px;
+    color:#262626;
+    margin-bottom: 0px;
+    font-weight: 900;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#main form{
+    margin: 15px 0;
+}
+
+#main label{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    display: block;
+}
+
+#main input{
+    background-image: linear-gradient(#ff4a69,#ff7060);
+    border: 0px;
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    
+}
+
+::placeholder{
+    color: white;
+}
+
+#main input:focus{
+    outline: none;
+}
+
+#main button{
+    color: #262626;
+    padding: 10px 25px;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#main button:hover{
+    background-color: #ddd;
+}
+
+.result,.info{
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.result{
+    display: none;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h3{
+    background-color: #ddd;
+    display: inline-block;
+    font-size: 50px;
+    color:#262626;
+    margin-bottom: 0px;
+    font-weight: 900;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.categorydiv{
+    text-align: center;
+}
+
+.category{
+    margin-left: 0px;
+    text-align: center;
+    height: 80px;
+    padding-top:10px ;
+}
+
+.weightError{
+    display: inline;
+}
+
+.heightErro{
+    display: inline;
+}
+
